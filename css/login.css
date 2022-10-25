@@ -1,7 +1,7 @@
 body{
-	background-image: url('../image/laau2.jpg');
+	background-image: url('../image/lasubuilding2.jpg');
 	height: 100vh;
-	background-size: cover;
+	background-size: 250px 160px;
 	background-position: center;
 	
 } 
@@ -14,10 +14,10 @@ body{
 .form{
 	position: relative;
 	z-index: 1;
-	background: #0000ff;
+	background: #ffffff;
 	max-width: 360px;
 	margin: 0 auto 100px;
-	padding: 55px;
+	padding: 45px;
 	text-align: center; 
 }
 .form input{
@@ -31,7 +31,6 @@ body{
 	box-sizing: border-box;
 	font-size: 16px;
 }
-
 .form button{
 	font-family: "Roboto", sans-serif;
 	text-transform: uppercase;
@@ -44,20 +43,4 @@ body{
 	font-size: 14px
 	cursor: pointer;
 
-}
-.form button:hover,.form button:active{
-	background: #00ffff;
-}
-.form .message{
-	margin: 15px 0 0;
-	color: antiquewhite;
-	font-size: 14px;
-}
-.form .message a{
-	color: #4CAF50;
-	text-decoration: none;
-}
-
-.form.register-form{
-	display: none;
 }
