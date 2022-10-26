@@ -15,7 +15,7 @@ $password  = mysqli_real_escape_string($con, $_REQUEST['password']);
 $sql = "INSERT INTO registered_user ( username, email, pass ) VALUES('$username', '$email','$password')";
 if(mysqli_query($con,$sql)){
     echo "<script> alert ('You Have Successfully Rgistered, You can now Login '); 
-	window.location.href='login.html';
+	window.location.href='login.php';
 	</script>" ;
 }
 else{

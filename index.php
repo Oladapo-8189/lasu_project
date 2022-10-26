@@ -12,7 +12,7 @@
 				<input type="password" name="password" placeholder="password" required/>
 				
 				<button>create</button>
-				<p class="message">Already Registered? <a href="login.html">Login</a></p>
+				<p class="message">Already Registered? <a href="login.php">Login</a></p>
 			</form>
 			<!--<form class="Login-form">
 				<input type="text"  placeholder="user name"/>
