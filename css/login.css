@@ -1,7 +1,8 @@
 body{
-	background-image: url('../image/lasubuilding2.jpg');
+	background-image: url('../image/lasuat.jpg');
 	height: 100vh;
-	background-size: 250px 160px;
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-position: center;
 	
 } 
